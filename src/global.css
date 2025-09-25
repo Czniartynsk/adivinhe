@@ -3,15 +3,20 @@
 }
 
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #f5f5fa;
 
   font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
+}
+
+input, 
+button {
+  font-family: "Noto Sans", sans-serif;
 }
 
 button {

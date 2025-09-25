@@ -6,3 +6,35 @@
     justify-content: center;
     align-items: center;
 }
+
+.container main {
+    width: 556px;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #FFFFFF;
+    padding: 2rem;
+    padding-top: 4.5rem;
+    border-radius: .75rem;
+
+}
+
+.word {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2.5rem 0;
+}
+
+h4 {
+    color: #32325f;
+    font-weight: 500;
+}
+
+.guess {
+    display: flex;
+    gap: .75rem;
+
+    margin-top: .75rem;
+}
