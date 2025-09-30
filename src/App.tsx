@@ -115,6 +115,7 @@ export default function App() {
   }
   
   return (
+    
     <div className={styles.container}>
       <main>
         <Header current={lettersUsed.length} max={Math.floor(challenge.word.length * 1.7)} onRestart={handleRestartGame}/>
